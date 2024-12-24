@@ -1,1 +1,6 @@
+def reverse_string(s):
+    return "".join(reversed(s))
+input_string = input("Enter a string: ")
+reversed_string = reverse_string(input_string)
+print(f"The reversed string is: {reversed_string}")
 
